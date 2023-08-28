@@ -1,3 +1,3 @@
-# Mapa de la Cochabamba de antaño
+# Mapa de sonidos de Cochabamba
 
-Fotos colorizadas con Inteligencia Artifical y posicionadas en un mapa interactivo
+Mapa de sonidos de Cochabamba
