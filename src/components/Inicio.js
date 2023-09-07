@@ -9,7 +9,7 @@ export default function Inicio() {
   return (
     <>
       <AppBar position="relative" sx={{ alignItems: 'center' }} >
-        <Toolbar sx={{ height: '6vh' }}>
+        <Toolbar sx={{ height: '10vh' }}>
           <Typography variant="h6" color="inherit" >
             <b>Mapa de sonidos de Cochabamba</b>
           </Typography>
@@ -18,7 +18,7 @@ export default function Inicio() {
       <main>
         <Mapa />
       </main>
-      <Box sx={{ height: '4vh' }}>
+      <Box sx={{ height: '5vh' }}>
         <Typography variant="subtitle2" color="inherit" align="center" gutterBottom >
 
         </Typography>

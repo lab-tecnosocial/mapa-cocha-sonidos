@@ -12,7 +12,7 @@ function App() {
       },
     },
     typography: {
-      fontFamily: 'Cinzel Decorative'
+      fontFamily: 'Open Sans',
     }
   }
   );
