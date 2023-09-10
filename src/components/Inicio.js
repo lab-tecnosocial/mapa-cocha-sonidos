@@ -9,8 +9,8 @@ export default function Inicio() {
   return (
     <>
       <AppBar position="relative" sx={{ alignItems: 'center' }} >
-        <Toolbar sx={{ height: '10vh' }}>
-          <Typography variant="h6" color="inherit" >
+        <Toolbar sx={{ height: '8vh' }}>
+          <Typography variant="h5" color="inherit" >
             <b>Mapa de sonidos de Cochabamba</b>
           </Typography>
         </Toolbar>
@@ -18,9 +18,11 @@ export default function Inicio() {
       <main>
         <Mapa />
       </main>
-      <Box sx={{ height: '5vh' }}>
+      <Box sx={{ height: '4vh' }}>
         <Typography variant="subtitle2" color="inherit" align="center" gutterBottom >
-
+          <Link href="https://labtecnosocial.org/" color="inherit" underline="hover" target="_blank" rel="noopener" >
+            <img src="https://labtecnosocial.org/wp-content/uploads/2021/07/cropped-logo-claro-300x149.png" alt="logo" width="80px" />
+          </Link>
         </Typography>
       </Box>
     </>

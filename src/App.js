@@ -8,7 +8,7 @@ function App() {
   const theme = createTheme({
     palette: {
       primary: {
-        main: '#2A81CB',
+        main: '#FAE59D',
       },
     },
     typography: {
