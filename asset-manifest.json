@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/mapa-cocha-sonidos/static/css/main.6a7db3a4.css",
-    "main.js": "/mapa-cocha-sonidos/static/js/main.9af786f8.js",
+    "main.css": "/mapa-cocha-sonidos/static/css/main.dc3df734.css",
+    "main.js": "/mapa-cocha-sonidos/static/js/main.a1eb8684.js",
     "index.html": "/mapa-cocha-sonidos/index.html",
-    "main.6a7db3a4.css.map": "/mapa-cocha-sonidos/static/css/main.6a7db3a4.css.map",
-    "main.9af786f8.js.map": "/mapa-cocha-sonidos/static/js/main.9af786f8.js.map"
+    "main.dc3df734.css.map": "/mapa-cocha-sonidos/static/css/main.dc3df734.css.map",
+    "main.a1eb8684.js.map": "/mapa-cocha-sonidos/static/js/main.a1eb8684.js.map"
   },
   "entrypoints": [
-    "static/css/main.6a7db3a4.css",
-    "static/js/main.9af786f8.js"
+    "static/css/main.dc3df734.css",
+    "static/js/main.a1eb8684.js"
   ]
 }
