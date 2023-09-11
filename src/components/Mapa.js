@@ -16,7 +16,7 @@ export default function Mapa() {
                 attribution='Desarrollado por el <a href="https://labtecnosocial.org/">Lab TecnoSocial</a>'
                 url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
             />
-            <AttributionControl position="bottomleft" prefix={false} className="atribucion" />
+            <AttributionControl position="bottomright" prefix={false} className="atribucion" />
 
             {/* make a custom selector for categorias in the bottomleft of the map to handleChange */}
             <LayersControl position="bottomleft" className="categorias" collapsed={false} >

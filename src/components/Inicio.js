@@ -24,7 +24,7 @@ export default function Inicio() {
       <Box className='footer'>
         <Typography variant="subtitle2" color="inherit" align="center" gutterBottom >
           <Link href="https://labtecnosocial.org/" color="inherit" underline="hover" target="_blank" rel="noopener" >
-            <img src="https://labtecnosocial.org/wp-content/uploads/2021/07/cropped-logo-claro-300x149.png" alt="logo" width="80px" />
+            <img src="https://labtecnosocial.org/wp-content/uploads/2021/07/cropped-logo-claro-300x149.png" alt="logo" width="80px" style={{ marginTop: '2px' }} />
           </Link>
         </Typography>
       </Box>

@@ -342,24 +342,6 @@
     "horario": "Mañana"
   },
   {
-    "index": 20,
-    "latitud": -17.3668297,
-    "longitud": -66.1769016,
-    "coordArray": [
-      -17.3668297,
-      -66.1769016
-    ],
-    "sonido": "1692457667435.mp3",
-    "sonidoUrl": "https://kc.kobotoolbox.org/media/original?media_file=alexroc%2Fattachments%2Fcb618263c60443f9883b51280a827f42%2F21ee87f6-c18b-4d8a-b4ca-8e70927ace0f%2F1692457667435.mp3",
-    "foto": "1692457768376.jpg",
-    "fotoUrl": "https://kc.kobotoolbox.org/media/original?media_file=alexroc%2Fattachments%2Fcb618263c60443f9883b51280a827f42%2F21ee87f6-c18b-4d8a-b4ca-8e70927ace0f%2F1692457768376.jpg",
-    "descripcion": "Parque y niños jugando en las canchas",
-    "categoriaPrimera": "Parques, recreación",
-    "categoriaCorregida": "Parque",
-    "area": "Norte",
-    "horario": "Mañana"
-  },
-  {
     "index": 21,
     "latitud": -17.366742,
     "longitud": -66.177076,
@@ -900,24 +882,6 @@
     "horario": "Tarde"
   },
   {
-    "index": 51,
-    "latitud": -17.396087,
-    "longitud": -66.153658,
-    "coordArray": [
-      -17.396087,
-      -66.153658
-    ],
-    "sonido": "Miel de caña-11_26_29.m4a",
-    "sonidoUrl": "https://kc.kobotoolbox.org/media/original?media_file=alexroc%2Fattachments%2Fcb618263c60443f9883b51280a827f42%2F25c2a2e0-5633-4c4f-83dd-0ea73acf68be%2FMiel_de_cana-11_26_29.m4a",
-    "foto": "miel-cania.jpg",
-    "fotoUrl": "https://kc.kobotoolbox.org/media/original?media_file=alexroc%2Fattachments%2Fcb618263c60443f9883b51280a827f42%2F1e5a1bf3-ec18-4689-8051-843064d65c2a%2Fmiel-cania-21_58_9.jpg",
-    "descripcion": "Carrito de venta de miel de caña",
-    "categoriaPrimera": "Economía",
-    "categoriaCorregida": "Comercio",
-    "area": "Centro",
-    "horario": "Tarde"
-  },
-  {
     "index": 52,
     "latitud": -17.396537,
     "longitud": -66.15356,
@@ -1312,5 +1276,23 @@
     "categoriaCorregida": "Festividad",
     "area": "Sur",
     "horario": "Tarde"
+  },
+  {
+    "index": 74,
+    "latitud": -17.425,
+    "longitud": -66.1945,
+    "coordArray": [
+      -17.425,
+      -66.1945
+    ],
+    "sonido": "Vaca-8_33_52.m4a",
+    "sonidoUrl": "https://kc.kobotoolbox.org/media/original?media_file=alexroc%2Fattachments%2Fcb618263c60443f9883b51280a827f42%2F9fd51ad5-e781-49a7-ad59-086ecc461a2f%2FVaca-8_33_52.m4a",
+    "foto": "maica-8_34_0.jpeg",
+    "fotoUrl": "https://kc.kobotoolbox.org/media/original?media_file=alexroc%2Fattachments%2Fcb618263c60443f9883b51280a827f42%2F9fd51ad5-e781-49a7-ad59-086ecc461a2f%2Fmaica-8_34_0.jpeg",
+    "descripcion": "Vacas por la Maica",
+    "categoriaPrimera": "",
+    "categoriaCorregida": "Agropecuario",
+    "area": "Sur",
+    "horario": "Mañana"
   }
 ]
