@@ -1,0 +1,9 @@
+.leaflet-control-layers {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+/* if selected bold */
+.leaflet-control-layers-selector:checked+span {
+    font-weight: bold;
+}

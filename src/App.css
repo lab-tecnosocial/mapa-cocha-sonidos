@@ -29,3 +29,27 @@
   font-family: 'Cinzel Decorative';
   font-size: 0.7rem;
 }
+
+.header {
+  height: 8vh;
+}
+
+.footer {
+  height: 4vh;
+}
+
+/* media query for mobile */
+@media only screen and (max-width: 600px) {
+  .map-container {
+    height: 86vh;
+  }
+
+  .header {
+    height: 8vh;
+    padding: 1rem 1rem;
+  }
+
+  .footer {
+    height: 6vh;
+  }
+}

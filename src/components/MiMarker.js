@@ -8,8 +8,8 @@ import "yet-another-react-lightbox/plugins/captions.css";
 
 
 const icon = new Icon({
-    iconUrl: 'https://labtecnosocial.org/wp-content/uploads/2023/09/marker-amarillo.png',
-    iconSize: [36, 36],
+    iconUrl: 'https://labtecnosocial.org/wp-content/uploads/2023/09/marker-3.png',
+    iconSize: [42, 42],
     iconAnchor: [12, 41],
     popupAnchor: [1, -34],
     shadowSize: [41, 41]
