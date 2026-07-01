@@ -21,9 +21,9 @@ export default function MiMarker({ item }) {
     return (
         <Marker position={item.coordArray} icon={icon}>
             <Popup>
-                <img src={item.fotoUrl} width="300px" alt={item.descripcion} onClick={() => setOpen(true)} />
+                <img src={`${process.env.PUBLIC_URL}/${item.fotoUrl}`} width="300px" alt={item.descripcion} onClick={() => setOpen(true)} />
                 <audio controls  >
-                    <source src={item.sonidoUrl} />
+                    <source src={`${process.env.PUBLIC_URL}/${item.sonidoUrl}`} />
                 </audio>
                 <p>Descripción: {item.descripcion}</p>
                 <p>Zona: {item.area}</p>
