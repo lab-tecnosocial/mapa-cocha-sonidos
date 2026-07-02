@@ -1,0 +1,10 @@
+# Mapa de sonidos de la ciudad de Cochabamba
+
+> Mapa sonoro interactivo de la ciudad de Cochabamba (Bolivia): una cartografía de sonidos urbanos georreferenciados que se pueden escuchar en el mapa.
+
+## Sobre el proyecto
+- URL: https://labtecnosocial.org/mapa-cocha-sonidos/
+- Autor: Lab TecnoSocial (labtecnosocial.org)
+- Año: 2023
+- Descripción: Explora y escucha los sonidos de distintos puntos de la ciudad de Cochabamba en un mapa interactivo.
+- Organización: Laboratorio de Tecnologías Sociales (Lab TecnoSocial), Bolivia.
