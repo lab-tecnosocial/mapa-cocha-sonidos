@@ -1,9 +1,89 @@
 .leaflet-control-layers {
     font-family: 'Open Sans', sans-serif;
-
+    max-width: min(280px, calc(100vw - 28px));
+    padding: 12px 14px;
+    border: 1px solid rgba(99, 83, 43, 0.18) !important;
+    border-radius: 16px;
+    color: #1d1a14;
+    background: rgba(255, 250, 240, 0.92);
+    box-shadow: 0 14px 38px rgba(46, 38, 24, 0.18);
+    backdrop-filter: blur(16px);
 }
 
 /* if selected bold */
 .leaflet-control-layers-selector:checked+span {
     font-weight: bold;
+}
+
+.leaflet-control-layers-expanded {
+    padding: 13px 14px 12px;
+}
+
+.leaflet-control-layers-list {
+    display: grid;
+    gap: 4px;
+}
+
+.leaflet-control-layers-base label {
+    display: block;
+    margin: 0;
+    cursor: pointer;
+}
+
+.leaflet-control-layers-base label span {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    min-height: 30px;
+    font-size: 0.9rem;
+    line-height: 1.2;
+}
+
+.leaflet-control-layers-selector {
+    width: 16px;
+    height: 16px;
+    margin: 0;
+    accent-color: #2f6f5e;
+}
+
+.leaflet-bottom.leaflet-left {
+    bottom: 20px;
+    left: 18px;
+}
+
+.leaflet-bottom.leaflet-left .leaflet-control {
+    margin: 0;
+}
+
+.leaflet-control-zoom {
+    border: 0 !important;
+    border-radius: 14px;
+    overflow: hidden;
+    box-shadow: 0 12px 30px rgba(46, 38, 24, 0.16);
+}
+
+.leaflet-control-zoom a {
+    width: 34px !important;
+    height: 34px !important;
+    color: #1d1a14 !important;
+    background: rgba(255, 250, 240, 0.92) !important;
+    line-height: 34px !important;
+}
+
+@media only screen and (max-width: 600px) {
+    .leaflet-control-layers {
+        max-width: calc(100vw - 20px);
+        padding: 10px 11px;
+        border-radius: 14px;
+    }
+
+    .leaflet-control-layers-base label span {
+        min-height: 28px;
+        font-size: 0.82rem;
+    }
+
+    .leaflet-bottom.leaflet-left {
+        bottom: 78px;
+        left: 10px;
+    }
 }

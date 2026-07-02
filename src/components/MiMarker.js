@@ -21,28 +21,41 @@ export default function MiMarker({ item }) {
     return (
         <Marker position={item.coordArray} icon={icon}>
             <Popup>
-                <img src={`${process.env.PUBLIC_URL}/${item.fotoUrl}`} width="300px" alt={item.descripcion} onClick={() => setOpen(true)} />
-                <audio controls  >
-                    <source src={`${process.env.PUBLIC_URL}/${item.sonidoUrl}`} />
-                </audio>
-                <p>Descripción: {item.descripcion}</p>
-                <p>Zona: {item.area}</p>
-                <p>Horario: {item.horario}</p>
-                {/* <Lightbox
+                <article className="sound-popup">
+                    <button className="popup-image-button" type="button" onClick={() => setOpen(true)} aria-label="Ampliar fotografia">
+                        <img src={`${process.env.PUBLIC_URL}/${item.fotoUrl}`} alt={item.descripcion} />
+                    </button>
+                    <div className="popup-body">
+                        <span className="popup-category">{item.categoriaCorregida}</span>
+                        <h2>{item.descripcion}</h2>
+                        <audio controls>
+                            <source src={`${process.env.PUBLIC_URL}/${item.sonidoUrl}`} />
+                        </audio>
+                        <dl className="popup-meta">
+                            <div>
+                                <dt>Zona</dt>
+                                <dd>{item.area}</dd>
+                            </div>
+                            <div>
+                                <dt>Horario</dt>
+                                <dd>{item.horario}</dd>
+                            </div>
+                        </dl>
+                    </div>
+                </article>
+                <Lightbox
                     styles={{ container: { backgroundColor: "rgba(0, 0, 0, .8)" } }}
                     open={open}
                     close={() => setOpen(false)}
 
                     slides={[
-                        { src: item.imgColUrl, description: '' },
-                        { src: item.imgBwUrl, description: '' },
+                        { src: `${process.env.PUBLIC_URL}/${item.fotoUrl}`, description: item.descripcion },
                     ]}
                     plugins={[Captions]}
                     captions={{ descriptionTextAlign: 'center' }}
-                /> */}
+                />
 
             </Popup>
         </Marker>
     )
 }
-

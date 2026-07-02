@@ -7,27 +7,30 @@ import Mapa from './Mapa';
 
 export default function Inicio() {
   return (
-    <>
-      <AppBar position="relative" sx={{ alignItems: 'center' }} >
+    <Box className="app-shell">
+      <AppBar position="fixed" elevation={0} className="topbar">
         <Toolbar className="header">
-          <img src="https://labtecnosocial.org/wp-content/uploads/2023/09/ondas-de-audio.png" width={50} style={{ marginRight: '10px' }} />
+          <Box className="brand-mark" aria-hidden="true">
+            <span />
+            <span />
+            <span />
+          </Box>
 
-          <Typography variant="h5" color="inherit" >
-            {/* <img src="https://labtecnosocial.org/wp-content/uploads/2023/09/bocina.png" width={25} /> */}
-            <b>Mapa de sonidos de Cochabamba</b>
+          <Typography variant="h1" color="inherit" className="site-title">
+            Mapa de sonidos de Cochabamba
           </Typography>
         </Toolbar>
-      </AppBar >
-      <main>
+      </AppBar>
+      <main className="map-stage">
         <Mapa />
       </main>
       <Box className='footer'>
-        <Typography variant="subtitle2" color="inherit" align="center" gutterBottom >
+        <Typography variant="subtitle2" color="inherit" align="center" className="footer-credit">
           <Link href="https://labtecnosocial.org/" color="inherit" underline="hover" target="_blank" rel="noopener" >
-            <img src="https://labtecnosocial.org/wp-content/uploads/2021/07/cropped-logo-claro-300x149.png" alt="logo" width="80px" style={{ marginTop: '2px' }} />
+            <img src={`${process.env.PUBLIC_URL}/logo-lab.png`} alt="Lab TecnoSocial" />
           </Link>
         </Typography>
       </Box>
-    </>
+    </Box>
   );
 }

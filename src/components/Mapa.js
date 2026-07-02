@@ -11,10 +11,18 @@ export default function Mapa() {
 
         <MapContainer center={[-17.394, -66.161]} zoom={13.5} attributionControl={false} className="map-container"
             maxZoom={18}
+            zoomSnap={0.25}
+            zoomDelta={0.75}
+            wheelPxPerZoomLevel={60}
         >
             <TileLayer
                 attribution='Desarrollado por el <a href="https://labtecnosocial.org/">Lab TecnoSocial</a>'
                 url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+                className="base-map-tiles"
+                keepBuffer={5}
+                updateWhenZooming={false}
+                updateInterval={260}
+                crossOrigin
             />
             <AttributionControl position="bottomright" prefix={false} className="atribucion" />
 
@@ -43,4 +51,3 @@ export default function Mapa() {
     )
 
 }
-
