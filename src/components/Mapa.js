@@ -17,7 +17,7 @@ export default function Mapa() {
         >
             <TileLayer
                 attribution='Desarrollado por el <a href="https://labtecnosocial.org/">Lab TecnoSocial</a>'
-                url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png"
+                url="https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png?key=cb1_2i09_1_c1733caff4f6b0fa830d7eeb"
                 className="base-map-tiles"
                 keepBuffer={5}
                 updateWhenZooming={false}
